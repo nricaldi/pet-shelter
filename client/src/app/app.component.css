@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+ul {
+    margin: 1rem 0; 
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    background-color: #fff;
+    color: crimson;
+    border: solid 2px crimson;
+    padding: .5rem;
+    transition: smooth, 500ms;
+}
+
+ul li a:hover {
+    background-color: crimson;
+    color: #eee;
+}

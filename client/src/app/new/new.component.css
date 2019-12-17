@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+form {
+    width: 50%;
+}
+
+div {
+    margin-bottom: 1rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: .5rem;
+    border: solid 1px #8a8a8a; 
+    border-radius: 2px;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+p {
+    margin-left: 1rem;
+}
+
+p input {
+    margin-bottom: 1rem;
+}
+
+span {
+    color: crimson;
+}
+
+.btn {
+    max-width: 100px;
+    padding: 10px;
+    color: royalblue;
+    border: solid royalblue 2px;
+    transition: smooth, 300ms
+}
+
+.btn:hover {
+    color: #eee;
+    background-color: royalblue;
+}
